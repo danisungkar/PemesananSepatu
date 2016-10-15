@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="bank">
+        <item>BCA</item>
+        <item>BRI</item>
+        <item>BNI</item>
+        <item>Mandiri</item>
+    </string-array>
+</resources>

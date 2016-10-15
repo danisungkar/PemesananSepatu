@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="id.sch.smktelkom_mlg.tugas01.xiirpl5012.pemesananbarang.MainActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dans Store"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textStyle="normal|bold|italic" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/dansu" />
+
+        <EditText
+            android:id="@+id/editTextNama"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:hint="Nama Pemesan"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextNo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:hint="Nomor Telepon Pemesan"
+            android:inputType="numberSigned" />
+
+        <EditText
+            android:id="@+id/editTextAlamat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:hint="Alamat Pemesan" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Barang" />
+
+        <CheckBox
+            android:id="@+id/checkboxSepatu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sepatu" />
+
+        <CheckBox
+            android:id="@+id/checkboxSandal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sandal" />
+
+        <CheckBox
+            android:id="@+id/checkboxKaosKaki"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Kaos Kaki" />
+
+        <CheckBox
+            android:id="@+id/checkboxTali"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tali Sepatu" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Metode Pembayaran" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupMetode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/cash"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cash" />
+
+            <RadioButton
+                android:id="@+id/Kredit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kredit" />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Pembayaran Via Bank" />
+
+        <Spinner
+            android:id="@+id/spinnerBank"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:entries="@array/bank" />
+
+        <Button
+            android:id="@+id/buttonPesan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="PESAN" />
+
+        <TextView
+            android:id="@+id/textViewHasil"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp" />
+
+    </LinearLayout>
+</ScrollView>
+
